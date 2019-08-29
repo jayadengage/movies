@@ -33,7 +33,7 @@ class ContactUSController extends Controller
         ), function($messege)
         {
           $messege->from('jay.upadhyay@adengage.in');
-          $messege->to('jay.upadhyay@adengage.in','Admin')->subject('testing');
+          $messege->to('jay.upadhyay@adengage.in','Admin')->subject('Contact Form');
         });
     	return back()->with('success', 'Thank for contacting us!');
     }
