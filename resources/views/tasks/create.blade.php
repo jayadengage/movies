@@ -1,5 +1,6 @@
-@extends('layout.layout')
 
+@extends('layout.layout')
+<br>
 @section('content')
 <br>
 <br>

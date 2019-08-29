@@ -1,8 +1,9 @@
 @extends('layout.layout')
 @section('content')
-        @if (Session::has('message'))
+        @if (Session::has('messag'))
             <div class="alert alert-info">{{ Session::get('message') }}</div>
         @endif
+        <br><br><br><br><br><br>
         <table class="table">
           <thead class="thead-dark">
             <tr>
